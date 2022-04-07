@@ -1,22 +1,8 @@
 ## 安装
 
-- 安装 pre-commit 环境
-  ```python
-  pip install pre-commit
-  pre-commit --version
-  ```
-  
-  
-  
-- 当前项目安装/卸载 pre-commit 
+手动运行根目录下的 pre-install.sh，也可以手动逐条执行脚本里的命令
 
-  ```python
-  # 项目根目录下执行以下命令
-  pre-commit install
-  pre-commit uninstall
-  ```
-  
-  
+
 
 ## 项目配置 pre-commit
 
@@ -24,7 +10,7 @@
 
 #### python项目
 
-```python
+```yaml
 fail_fast: false
 
 repos:
@@ -43,7 +29,7 @@ repos:
 
 尝试手动检测全部文件
 
-```python
+```shell
 pre-commit run --all-files
 ```
 
