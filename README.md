@@ -1,14 +1,12 @@
 ## 安装
 
-手动运行根目录下的 pre-install.sh，也可以手动逐条执行脚本里的命令
+手动运行根目录下的 pre-install.sh 或者 pre-install.bat，也可以手动逐条执行脚本里的命令
 
 
 
 ## 项目配置 pre-commit
 
 根目录下添加 .pre-commit-config.yaml文件, 内容如下
-
-#### python项目
 
 ```yaml
 fail_fast: false
@@ -49,7 +47,7 @@ pre-commit run --all-files
 
 
 
-##### 格式化演示
+## 格式化演示
 
 格式化前
 
