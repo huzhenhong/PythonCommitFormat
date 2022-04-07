@@ -1,7 +1,7 @@
 # # 该config文件为该项目的pre-commit的配置文件，用于指定该项目可以执行的git hooks
 
 # # 这是pre-commit的全局配置之一
-fail_fast: false
+# fail_fast: false
 
 repos:
 # # hook所在的仓库
