@@ -28,8 +28,8 @@ repos:
 #     # hook脚本需要的参数，可以在该hook脚本文件中看到
 #     args: [--autofix, --indent, '2']
 
--   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.1.0
+-   repo: https://gitee.com/huzhenhong/pre-commit-hooks-py
+    rev: v4.2.0
     hooks:
     -   id: check-yaml
     -   id: end-of-file-fixer

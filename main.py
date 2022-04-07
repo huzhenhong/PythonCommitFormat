@@ -16,7 +16,7 @@ import cv2
 
 img= cv2.imread("circle.png")
 
-img= cv2.resize(img, (256, 256))
+img=  cv2.resize(img, (256, 256)) 
 cv2.imshow("origin", img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
